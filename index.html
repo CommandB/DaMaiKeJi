@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-TW"><head><title>PC Partner</title>
+<!DOCTYPE html><html lang="zh-TW"><head><title>damai.com</title>
 <meta name="keywords" content="PC Partner" />
 <meta name="description" content="PC Partner" />
 <meta http-equiv="content-language" content="zh-TW">
@@ -168,7 +168,7 @@
                         <p>
                             <span class="glyphicon glyphicon-envelope"></span>
                             &nbsp;
-                            邮箱: <a href="youpinyimai@163.com" target="_blank">inquiry@pcpartner.com</a>
+                            邮箱: <a href="youpinyimai@163.com" target="_blank">youpinyimai@163.com</a>
                         </p>
                     </address>
                 </div>
@@ -186,7 +186,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                &copy;&nbsp;Copyright PC Partner Group Limited. All Rights Reserved.
+                &copy;&nbsp;Copyright DaMaiKeJi Limited. All Rights Reserved.
             </div>
         </div>
     </div>
@@ -225,11 +225,11 @@ $(function(){
 <script type="text/javascript">
 function formatNum(num,n)
 {
-	//参数说明：num 要格式化的数字 n 保留小数位
-	num = String(num.toFixed(n));
-	var re = /(-?\d+)(\d{3})/;
-	while(re.test(num)) num = num.replace(re,"$1,$2")
-	return num;
+    //参数说明：num 要格式化的数字 n 保留小数位
+    num = String(num.toFixed(n));
+    var re = /(-?\d+)(\d{3})/;
+    while(re.test(num)) num = num.replace(re,"$1,$2")
+    return num;
 }
 
 var elements = hq_str_hk01263.split(",");
@@ -238,7 +238,7 @@ var today_new=elements[6];
 
 if (elements[2]=="0.000")
 {
-	today_open="--";
+    today_open="--";
 }
 
 var change=formatNum(today_new-elements[3],3);
